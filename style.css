@@ -289,7 +289,7 @@ nav a:hover::after {
 }
 
 .title {
-  font-family:"Century Gothic", 'Raleway', sans-serif;
+  font-family: century-gothic , 'Raleway', sans-serif;
   font-weight: 800;
   color: transparent;
   font-size: 150px;
