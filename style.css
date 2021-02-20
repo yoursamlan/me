@@ -202,12 +202,11 @@ nav ul.main li a {
 nav ul.main li a span {
   color: #1a152a;
 }
-  /* Déplacement droite au passage de la souris */
+ 
 nav ul.main li a:hover {
- /* color: rgb(105,105,105);*/
   margin-left: 20px;
 }
-  /* Filet rouge au passage de la souris */
+
 nav a::before {
   content: "";
   position: absolute;
@@ -223,7 +222,7 @@ nav a:hover::before {
   left: 0px;
   opacity: 1;
 }
- /* Barré au hover */
+
 /*nav a::after {
   content: "";
   position: absolute;
@@ -262,7 +261,7 @@ nav a:hover::after {
   visibility: visible;
 }
 
-/*  COTENU FIRST SECTION
+/* FIRST SECTION
 ========================================== */
 
 .containerIntro{
@@ -289,7 +288,7 @@ nav a:hover::after {
 }
 
 .title {
-  font-family: century-gothic , 'Raleway', sans-serif;
+  font-family: century-gothic, sans-serif;
   font-weight: 800;
   color: transparent;
   font-size: 150px;
